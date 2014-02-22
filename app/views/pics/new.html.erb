@@ -2,9 +2,9 @@
 <h1 class="custom-h1 text-center">Upload new apartment</h1>
 	<div class="text-center">
 	<%= simple_form_for @pic do |f| %>
-		<%= f.input :title, label: 'Size (e.g. 2 BR)' %>
-		<%= f.input :subtitle, label: 'Address (e.g. 1 Langdon Street)'%>
-		<%= f.input :message, label: 'Describe your apartment'%>
+		<%= f.input :title, label: 'Size', placeholder: '(e.g. 2 BR)' %>
+		<%= f.input :subtitle, label: 'Address', placeholder: '(e.g. 1 Langdon Street' %>
+		<%= f.input :message, label: 'Describe your apartment', placeholder: '(e.g. worlds best apartment)' %>
 
 		<%= f.submit "Save", :class => 'btn btn-warning btn-large' %>
 	<% end %>
