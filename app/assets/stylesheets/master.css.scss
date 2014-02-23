@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 .smurfy {
-	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
-	background-color: rgba(36,32,33,0.50);
+	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.8);
+	background-color: rgba(36,32,33,0.8);
 	padding: 1%;
 	color: white;
 }
@@ -17,16 +17,32 @@ body {
 
 .custom-h1 {
 	color: #FFFFFF;
-	font-family: Helvetica Neue Light, 'Varela Round', Helvetica Neue, Helvetica, sans-serif;
-	font-weight: 500;
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+	font-weight: 300;
 	font-size: 64px;
 	line-height: 64px;
 }
 
 h2 	{
 	color: white;
-	font-family: Helvetica Neue Light, 'Varela Round', Helvetica Neue, Helvetica, sans-serif;
-	font-weight: 300;
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, sans-serif;
+	font-weight: 200;
 	font-size: 28px;
 	line-height: 28px;
+}
+
+.center_box {
+	width: 90%;
+	margin: 0 auto;
+}
+@media all and (min-width: 600px){
+	.center_box {
+
+	width: 95%;
+
+	}	
+}	
+
+.clr {
+	clear:both;
 }

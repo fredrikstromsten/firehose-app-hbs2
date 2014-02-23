@@ -7,8 +7,8 @@
 <br/>
 <br/>
 
-<div class="span5 offset3 smurfy text-left">
-
+<div class="smurfy center_box">
+		<br/>
 		<h1 class="custom-h1">
 		Rentify.
 		</h1>
@@ -17,6 +17,10 @@
 		Apartments made simple.
 		</h2>
 		<br/>
-		<%=   link_to 'Find apartments', '/pics', :class =>'btn btn-warning btn-large pull-left'%>
-		<%=   link_to 'Rent out', 'http://www.google.com', :class =>'btn btn-danger btn-large pull-right'%>
+		<%=   link_to pics_path, :class =>'btn btn-warning btn-large pull-left' do %>
+		<i class="icon-search"> Find apartments</i>
+		<% end %>
+
+		<%=   link_to 'Rent Out', new_pic_path, :class =>'btn btn-danger btn-large pull-right'%>
+		<div class="clr"></div>
 </div>
