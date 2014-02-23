@@ -41,7 +41,20 @@ h2 	{
 	width: 95%;
 	margin: 0 auto;
 
+	}
+}
+.center_box2 {
+	width: 90%;
+	margin: 0 auto;
+}
+@media all and (min-width: 400px){
+	.center_box2 {
+
+	width: 300px;
+	margin: 0 auto;
+
 	}	
+
 }	
 
 .clr {
